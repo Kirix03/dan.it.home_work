@@ -27,8 +27,8 @@ public class Task_5 {
             }
         }
 
-        System.out.println("Мінімальний елемент: " + min);
-        System.out.println("Максимальний елемент: " + max);
+        System.out.println("Minimum element: " + min);
+        System.out.println("Maximum element: " + max);
 
     }
 }

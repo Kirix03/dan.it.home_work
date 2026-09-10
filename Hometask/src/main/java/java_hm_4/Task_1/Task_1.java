@@ -7,7 +7,7 @@ public class Task_1 {
         String sentence = "";
 
         while (true){
-            System.out.println("Введіть слово: ");
+            System.out.println("Enter word: ");
             String word = scanner.nextLine();
 
             if(word.equals("Stop")){
@@ -15,6 +15,6 @@ public class Task_1 {
             }
             sentence += word + " ";
         }
-        System.out.println("Речення: "+ sentence);
+        System.out.println("Sentence: "+ sentence);
     }
 }

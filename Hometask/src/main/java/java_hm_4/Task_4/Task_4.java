@@ -4,21 +4,21 @@ import java.util.Scanner;
 public class Task_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String[] names = {"Петя","Маша","Олена","Федя","Саша","Антон","Гліб"};
+        String[] names = {"Petya","Masha","Olena","Fedya","Sasha","Anton","Gleb"};
         int[] time ={10,12,14,16,18,20};
-        String[] place = {"школу","магазин","церква","тренажерний зал","кіно","поліклініки"};
+        String[] place = {"School","Store","Church","Gym","Cinema","Hospital"};
 
-        System.out.println("Введіть ім'я: ");
+        System.out.println("Enter name: ");
         int nameIndex = scanner.nextInt();
 
-        System.out.println("Вкажіть час: ");
+        System.out.println("Enter time: ");
         int timeIndex = scanner.nextInt();
 
-        System.out.println("Вкажіть місце: ");
+        System.out.println("Enter place: ");
         int placeIndex = scanner.nextInt();
 
         System.out.println(
-                names[nameIndex -1] + " буде йти до " + place[placeIndex -1] + " o " + time[timeIndex] +":00"
+                names[nameIndex -1] + " will go to " + place[placeIndex -1] + " in " + time[timeIndex] +":00"
         );
     }
 }
