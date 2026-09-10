@@ -14,11 +14,11 @@ public class Task_2 {
                 a + b > c &&
                 a + c > b &&
                 b + c > a) {
-            System.out.println("З цих сторін можна побудувати трикутник");
+            System.out.println("From these sides you can get a trikutnik");
 
         } else {
 
-            System.out.println("З цих сторін не можна побудувати трикутник");
+            System.out.println("From these sides it is impossible to wake up the trikutnik");
         }
     }
 }

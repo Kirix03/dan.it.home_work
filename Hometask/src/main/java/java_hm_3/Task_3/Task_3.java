@@ -9,6 +9,6 @@ public class Task_3 {
         int b = scanner.nextInt();
         int difference = a > b ? a - b : b - a;
 
-        System.out.println("Різниця = " + difference);
+        System.out.println("Difference = " + difference);
     }
 }

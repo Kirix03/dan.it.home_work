@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Task_6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введіть назву програми (IntelliJ IDEA, Git, Java): ");
+        System.out.print("Enter the name of the program (IntelliJ IDEA, Git, Java): ");
         String program = scanner.nextLine();
 
-        System.out.print("Введіть ОС (Linux, MacOS, Windows): ");
+        System.out.print("Enter OS (Linux, MacOS, Windows): ");
         String os = scanner.nextLine();
 
         String link = " ";
@@ -66,15 +66,15 @@ public class Task_6 {
                         System.out.println(link);
                         break;
                     default:
-                        System.out.println("Такої ОС не існує");
+                        System.out.println("Such an OS does not exist.");
                 }
                 break;
 
             default:
-                System.out.println("Такої програми не існує");
+                System.out.println("Such a program does not exist.");
 
                 if (!link.isEmpty()) {
-                    System.out.println("Посилання для завантаження:");
+                    System.out.println("Download link:");
                     System.out.println(link);
 
 
