@@ -30,10 +30,16 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
     @Override
-    public String toString(){
-        return "Person{" + "name=" + name +",surname= " + surname + ",age =" + age;
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                '}';
     }
+
     @Override
     public boolean equals(Object o) {
         if(this == o) return true;
